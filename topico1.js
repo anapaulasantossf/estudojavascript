@@ -74,6 +74,7 @@ saudar(); // Output: Olá, João!
 
 function multiplicar(a, b) {
   const result = a * b; // Variável local
+  console.log(result)
   return result;
 }
 const resultado = multiplicar(5, 3);
@@ -116,13 +117,62 @@ console.log(objetoPessoa)
 // Tratamento de erros
 try {
     const numerador = 10
-    const denominador = 0
+    const denominador = 'aaa'
     const resultadoErro = numerador/denominador
-    console.log(resultadoErro)
-
+    console.log(forcarErro)
 } catch (error) {    
-    console.log(error);
+    console.log('Ocorreu o erro: ' + error.message);
 }
 
 // Promises e async/await (programação assíncrona)
+//Promises são um recurso do JavaScript que nos permite lidar com operações assíncronas de forma mais eficiente.
+//Elas representam um valor que pode estar disponível agora, no futuro ou nunca.
+//As Promises possuem três estados: pendente (pending), resolvida (fulfilled) e rejeitada (rejected).
 
+function esperar(segundos) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('Promessa resolvida após ' + segundos + ' segundos.');
+    }, segundos * 1000);
+  });
+}
+
+async function minhaFuncao() {
+  try {
+    let resultado = esperar(3);
+    console.log(resultado)
+
+    let resultado2 = await esperar(5);
+    console.log(resultado2)
+
+    console.log(resultado)
+  } catch (error) {
+    console.log('Ocorreu um erro: ' + error.message);
+  }
+}
+
+minhaFuncao()
+
+
+function doSomething() {
+  return new Promise((resolve, reject) => {
+    // Simulando uma operação assíncrona
+    setTimeout(() => {
+      const success = true;
+      if (success) {
+        resolve('Operação concluída com sucesso.');
+      } else {
+        reject('Erro ao executar a operação.');
+      }
+    }, 2000);
+  });
+}
+
+// Chamada da função usando uma Promise
+doSomething()
+  .then(result => {
+    console.log(result);
+  })
+  .catch(error => {
+    console.error(error);
+  });

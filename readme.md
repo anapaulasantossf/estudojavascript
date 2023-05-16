@@ -7,9 +7,9 @@
 - Manipulação de arrays e objetos
 - Tratamento de erros
 - Promises e async/await (programação assíncrona)
-- JavaScript avançado:
 
-### 2. Programação funcional em JavaScript:
+### 2. JavaScript avançado:
+- Programação funcional em JavaScript
 - Métodos de array (map, filter, reduce, etc.)
 - Classes e protótipos
 - Trabalhando com módulos (CommonJS, ES6 modules)
