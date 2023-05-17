@@ -1,3 +1,7 @@
+### Legenda: 
+* Foi explicado
+- Ignorado
+
 
 ### 1. JavaScript básico:
 * Tipos de dados e variáveis
@@ -11,13 +15,22 @@
 ### 2. JavaScript avançado:
 * Programação funcional em JavaScript
 * Métodos de array (map, filter, reduce, etc.)
-* Classes e protótipos
-- Trabalhando com módulos (CommonJS, ES6 modules)
+- Classes e protótipos 
+* Trabalhando com módulos (CommonJS, ES6 modules)
 - Manipulação do DOM (Document Object Model)
 - Eventos e manipulação de eventos
-- Fetch API e AJAX
+* Fetch API
 
-### 3. TypeScript:
+### 3. Node.js básico:
+* Introdução ao Node.js
+* Instalação e configuração
+* Módulos e require
+- NPM (gerenciador de pacotes do Node.js)
+- Event Loop e non-blocking I/O
+- File System (leitura e escrita de arquivos)
+- Manipulação de streams
+
+### 4. TypeScript:
 - Introdução ao TypeScript
 - Tipos básicos e avançados
 - Anotações de tipo e inferência
@@ -25,15 +38,6 @@
 - Union types e intersection types
 - Generics
 - Migrando projetos JavaScript para TypeScript
-
-### 4. Node.js básico:
-- Introdução ao Node.js
-- Instalação e configuração
-- Módulos e require
-- NPM (gerenciador de pacotes do Node.js)
-- Event Loop e non-blocking I/O
-- File System (leitura e escrita de arquivos)
-- Manipulação de streams
 
 ### 5. Desenvolvimento de APIs com Node.js:
 - Introdução ao Express.js (framework web)

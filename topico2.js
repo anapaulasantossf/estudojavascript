@@ -106,3 +106,10 @@ console.log(`Teste 1 - O valor de todos os carros é ${valor}`)
 const valor2 = arrayCarros.reduce((accumulator, currentValue) => accumulator + currentValue.fipe, 0)
 //const valor2 = arrayCarros.reduce((acc, curr) => acc + curr.fipe, 0)
 console.log(`Teste 2 - O valor de todos os carros é ${valor2}`)
+
+//Fetch API
+fetch("http://www.google.com.br")
+//.then(response => (response.json()))
+.then(data => (console.log(data)))
+.catch(error => (console.log(error)))
+.finally(() => (console.log('finally do Fetch')))
