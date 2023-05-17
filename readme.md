@@ -1,17 +1,17 @@
 
 ### 1. JavaScript básico:
-- Tipos de dados e variáveis
-- Operadores e expressões
-- Estruturas de controle de fluxo (condicionais, loops)
-- Funções e escopo
-- Manipulação de arrays e objetos
-- Tratamento de erros
-- Promises e async/await (programação assíncrona)
+* Tipos de dados e variáveis
+* Operadores e expressões
+* Estruturas de controle de fluxo (condicionais, loops)
+* Funções e escopo
+* Manipulação de arrays e objetos
+* Tratamento de erros
+* Promises e async/await (programação assíncrona)
 
 ### 2. JavaScript avançado:
-- Programação funcional em JavaScript
-- Métodos de array (map, filter, reduce, etc.)
-- Classes e protótipos
+* Programação funcional em JavaScript
+* Métodos de array (map, filter, reduce, etc.)
+* Classes e protótipos
 - Trabalhando com módulos (CommonJS, ES6 modules)
 - Manipulação do DOM (Document Object Model)
 - Eventos e manipulação de eventos

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start1": "node topico1.js",
-    "start2": "node topico2.js"
+    "start1": "clear && node topico1.js",
+    "start2": "clear && node topico2.js"
   },
   "keywords": [],
   "author": "",
